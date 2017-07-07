@@ -40,9 +40,10 @@ if __name__ == '__main__':
         mover()
     except rospy.ROSInterruptException:
         pass
-        ```
+```
         
 ## The code: Explained
+
 ```
 #!/usr/bin/env python
 
