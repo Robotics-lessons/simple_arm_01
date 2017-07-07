@@ -12,3 +12,4 @@ simple_arm:
       type: effort_controllers/JointPositionController
       joint: joint_2
       pid: {p: 100.0, i: 0.01, d: 10.0}
+
