@@ -17,6 +17,7 @@ def mover():
     while not start_time:
         start_time = rospy.Time.now().to_sec()
 
+    # check the code is shutdowned or not
     while not rospy.is_shutdown():
         elapsed = rospy.Time.now().to_sec() - start_time
         pub_j1.publish(math.sin(2*math.pi*0.1*elapsed)*(math.pi/2))
